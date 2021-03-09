@@ -121,8 +121,11 @@ pipeline.
 	//this should successfully run without any error and various IP databases should be in the current directory
 	- Go to ​ sw​ folder and create a folder named build
 	```mkdir build```
+	
 	- Move to the build directory and copy the cmake_configure.zeroriscy.gcc.sh​ script file from ​ sw​ folder to it
+	
 	```cd ​ build​```
+	
 	```cp ​ ../cmake_configure.zeroriscy.gcc.sh .```
 	- Edit the above cmake script file and save it:
 		``` vim cmake_configure.zeroriscy.gcc.sh```
