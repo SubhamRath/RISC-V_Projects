@@ -8,7 +8,9 @@ developed at ETH Zurich. PULPino is configured to use either the RISCY or the ze
 RISCY is an in-order, single-issue core with 4 pipeline stages whereas zero-riscy core with 2 stage
 pipeline.
 
- - #### ***Setting up the PULP Platform :***
+### Setting up the toolchain :
+- ****
+
 	 -  Download and install [Ubuntu 20.04 LTS](https://ubuntu.com/download/desktop/thank-you?version=20.04.2.0&architecture=amd64)
 	 -  Open terminal and execute the following commands:
 	 
@@ -16,13 +18,13 @@ pipeline.
 	
 	```sudo apt-get upgrade```
 	
-	```sudo apt-get install tcsh``` // for tcl scripts
+	```sudo apt-get install tcsh```
 	
-	```sudo apt-get install cmake``` // for cmake script
+	```sudo apt-get install cmake``` 
 	
-	```sudo apt-get install git``` // for cmake script
+	```sudo apt-get install git``` 
 	
-	```sudo apt-get install vim-gtk3``` // for gvim (ignore if gvim is already installed)
+	```sudo apt-get install vim-gtk3``` //(ignore if gvim is already installed)
 	
 	 - Move to Desktop and make your work directory
 		- Example :
